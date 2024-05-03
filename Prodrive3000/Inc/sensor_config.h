@@ -1,0 +1,27 @@
+
+#include "sensor.h"
+
+
+
+#ifndef __sensor_config_h
+#define __sensor_config_h
+
+/* Config units */
+#define SENSOR_CONF_VOLT_UNIT				"U"
+#define SENSOR_CONF_AMPERE_UNIT				"A"
+#define SENSOR_CONF_DEGREE_UNIT				"d"
+#define SENSOR_CONF_PERCENT_UNIT			"%"
+
+/* Config sensor types */
+#define SENSOR_CONF_SENSOR01_TYPE			SENSOR_INTEGER_VOLT
+#define SENSOR_CONF_SENSOR02_TYPE			SENSOR_2_DECIMAL_AMPERE
+#define SENSOR_CONF_SENSOR03_TYPE			SENSOR_2_DECIMAL_AMPERE
+#define SENSOR_CONF_SENSOR04_TYPE			SENSOR_2_DECIMAL_AMPERE
+#define SENSOR_CONF_SENSOR05_TYPE			SENSOR_INTEGER_VOLT
+#define SENSOR_CONF_SENSOR06_TYPE			SENSOR_INTEGER_PERCENT
+#define SENSOR_CONF_SENSOR07_TYPE			SENSOR_INTEGER_DEGREE
+#define SENSOR_CONF_SENSOR08_TYPE			SENSOR_INTEGER_DEGREE
+
+#endif /* __sensor_config_h */
+
+/* end of sensor_config.h */
